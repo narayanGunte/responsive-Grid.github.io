@@ -1,0 +1,129 @@
+*{
+    padding:0;
+    margin: 0;
+   
+    
+}
+body{
+    background-color: hsl(0, 0%, 81%);
+    margin-left: 110px;
+    font-family: Barlow Semi Condensed;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 22% 22% 22% 22%;
+    grid-template-rows: 45% 45%;
+    grid-gap: 30px;
+    /* justify-content: space-around; */
+    align-content: center;
+    height: 100vh;
+    
+}
+
+
+.img-daniel {
+    float: left;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+.img-jonathan{
+    float: left;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+.img-jeanette {
+    float: left;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+.img-patrick {
+    float: left;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+.img-kira {
+    float: left;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+.white_h{
+    color: white;
+    margin-bottom: 20px;
+}
+.black_h{
+    
+    margin-bottom: 20px;
+}
+p {
+    Font-size: 13px;
+}
+.daniel {
+    /* grid-area: header; */
+    grid-column-start: 1;
+    grid-column-end: 3;
+    /* height: 200px;
+    width: 500px; */
+    background-color: hsl(263, 55%, 52%);
+    margin-bottom: 0px;
+    color: hsl(0, 0%, 81%);
+    border-radius: 10px;
+    padding: 30px;
+    
+}
+
+.images_para {
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+.grad_opacity {
+    opacity: 50%;
+}
+
+.jonathan {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    /* height: 200px;
+    width: 200px; */
+    background-color: hsl(217, 19%, 35%);
+    margin-bottom: 0px;
+    color: hsl(0, 0%, 81%);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.Jeanette {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row: span 1;
+    /* height: 200px;
+    width: 200px; */
+    background-color: hsl(0, 0%, 100%);
+    margin-bottom: 0px;
+   
+    border-radius: 10px;
+    padding: 30px;
+}
+.patrick {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    /* height: 200px;
+    width: 500px; */
+    background-color: hsl(219, 29%, 14%);
+    margin-bottom: 0px;
+    color: hsl(0, 0%, 81%);
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.kira  {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row: span 2;
+    /* height: 500px;
+    width: 200px; */
+    background-color: hsl(0, 0%, 100%);
+    margin-bottom: 0px;
+    
+    border-radius: 10px;
+    padding: 30px;
+}
